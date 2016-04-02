@@ -1,0 +1,24 @@
+{
+  "name": "COMP1073-Lesson11",
+  "homepage": "https://github.com/devolasvegas/COMP1073-Lessson11",
+  "authors": [
+    "DEVON DAVIAU <devon.daviau@yahoo.ca>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
