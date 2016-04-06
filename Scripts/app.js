@@ -54,6 +54,10 @@
         $('#username').select();
     });
 
+    // Create a reference of binding to an HTML elemet
+    // and read all html contained within it
+    // store this data in the header variable
+    var header = $('#mainHeader').load('partials/nav.html');
 
 })();
 
