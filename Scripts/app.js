@@ -57,7 +57,21 @@
     // Create a reference of binding to an HTML elemet
     // and read all html contained within it
     // store this data in the header variable
-    var header = $('#mainHeader').load('partials/nav.html');
+    var header = $('#mainHeader').load('partials/nav.html', function () {
+        var bodyid = $('body').attr('id');
+        switch (bodyid.toString()) {
+            case "index":
+                $('#indexLink').attr("class", "active");
+                break;
+            case "projects":
+                $('#projectsLink').attr("class", "active");
+                break;
+            case "contact":
+                $('#contactLink').attr("class", "active");
+                break;
+        }
+    });
+
 
 })();
 
